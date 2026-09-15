@@ -1,5 +1,5 @@
 name = "madlouh-pregnancy-care"
-main = "dist/server/index.js"
+main = "vinext/server/fetch-handler"
 compatibility_date = "2026-09-15"
 compatibility_flags = ["nodejs_compat"]
 
