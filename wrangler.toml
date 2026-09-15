@@ -1,0 +1,19 @@
+name = "madlouh-pregnancy-care"
+main = "dist/server/index.js"
+compatibility_date = "2026-09-15"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "madlouh-pregnancy-db"
+database_id = "bfa42154-f119-49af-808d-31a2861d6be4"
+
+# متغيرات غير سرية — يمكن أن تبقى هنا في wrangler.toml
+[vars]
+OTP_FROM_EMAIL = "مجمع المدلوح الطبي <no-reply@madlouh.com.sa>"
+ALLOWED_DOCTOR_EMAIL_DOMAIN = "madlouh.com.sa"
+
+# أسرار — لا تُكتب هنا أبدًا؛ تُضبط عبر:
+#   wrangler secret put SETUP_CODE
+#   wrangler secret put SESSION_SECRET
+#   wrangler secret put OTP_GATEWAY_API_KEY

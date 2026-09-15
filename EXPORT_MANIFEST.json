@@ -1,0 +1,14 @@
+{
+  "project": "بكج متابعة الحمل | MadlouhMed",
+  "export_date": "2026-09-15",
+  "runtime": "Cloudflare Workers with D1",
+  "source_language": ["TypeScript", "TSX", "CSS", "JSON"],
+  "database_files": [
+    "database-export/data.json",
+    "database-export/seed-data.sql",
+    "drizzle/0000_fine_groot.sql",
+    "drizzle/0001_daffy_susan_delgado.sql"
+  ],
+  "deployment_template": "wrangler.toml.example",
+  "important": "Replace the ChatGPT-specific authentication before independent Cloudflare deployment."
+}
